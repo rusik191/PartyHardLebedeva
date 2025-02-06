@@ -1,0 +1,39 @@
+﻿<Page x:Class="ReservationsPages"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PartyHardLebedeva"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1366"
+      Title="ReservationPages">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="158.4"/>
+            <ColumnDefinition Width="741.6"/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Авторизация" Grid.Column="1" Grid.Row="3" FontSize="25" Grid.ColumnSpan="2" Margin="0,0,0,49" Grid.RowSpan="2"/>
+        <TextBox Text="Логин" Grid.Column="1" Grid.Row="5" FontSize="25" Grid.ColumnSpan="2" Margin="0,0,0,49" Grid.RowSpan="2"/>
+        <TextBox Text="Пароль" Grid.Column="1" Grid.Row="7" FontSize="25" Grid.ColumnSpan="2" Margin="0,0,0,49" Grid.RowSpan="2"/>
+        <Button Name="EnterBtn"  Content="Войти" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,0,0.4" />
+        <Image Source="/Resourse/logo.png" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,0,0.4" />
+       
+    </Grid>
+</Page>

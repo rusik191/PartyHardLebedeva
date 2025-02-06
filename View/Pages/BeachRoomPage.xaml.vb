@@ -1,0 +1,3 @@
+﻿Class BeachRoomPage
+
+End Class

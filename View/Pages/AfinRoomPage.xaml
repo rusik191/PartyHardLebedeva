@@ -1,0 +1,31 @@
+﻿<Page x:Class="BohemianRoomPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PartyHardLebedeva"
+      mc:Ignorable="d" 
+       d:DesignHeight="740" d:DesignWidth="1200" Title="Богемный стиль">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+<Image Source="/Resourse/d05ab966bd1b621596115e341d3f2297.jpg" />
+
+
+        <Grid Grid.Column="1" Margin="100" Background="LightGray" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition />
+
+            </Grid.RowDefinitions>
+            <TextBlock Text="Афины" HorizontalAlignment="Center" Margin="5"/>
+            <TextBlock FontSize="28" Margin="5" Text="В комнате царит современная и творческая атмосфера с классическими элементами. На одной из стен доминирует большая фреска в серых тонах с классическими фигурами." TextWrapping="Wrap"  Grid.Row="2"  />
+            <TextBlock Text="Цена в час: 750р" Grid.Row="4" FontSize="28" Margin="5"/>
+        </Grid>
+    </Grid>
+</Page>

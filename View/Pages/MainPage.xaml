@@ -1,0 +1,26 @@
+﻿<Page x:Class="MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PartyHardLebedeva"
+      mc:Ignorable="d" 
+      d:DesignHeight="760" d:DesignWidth="1200"
+      Title="MainPage">
+   
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Menu>
+                <MenuItem Header="Комнаты">
+                    <MenuItem Header="Комната 1" Click="MenuItem_New_Click" />
+                    <MenuItem Header="Комната 2" Click="MenuItem_Open_Click" />
+                    <MenuItem Header="Комната 3" Click="MenuItem_Exit_Click" />
+                </MenuItem>
+            </Menu>
+        <Frame Grid.Row="2" Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+
+</Page>

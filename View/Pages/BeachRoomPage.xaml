@@ -1,0 +1,30 @@
+﻿<Page x:Class="BeachRoomPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PartyHardLebedeva"
+      mc:Ignorable="d" 
+      d:DesignHeight="740" d:DesignWidth="1200"
+      Title="BeachRoomPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Resourse/partyhardloft2.jpg" />
+        <Grid Grid.Column="1" Margin="100" Background="LightPink" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition />
+
+            </Grid.RowDefinitions>
+            <TextBlock Text="На пляже" HorizontalAlignment="Center" Margin="5"/>
+            <TextBlock FontSize="28" Margin="5" Text="В комнате отдыхающего ждут неоновые вывески и прохлада вечернего пляжа, массивная барная стойка и множество фотообъектов: серферная доска, шезлонги и гамак на фоне искусственной зелени. Хотите создать вечеринку на День рождения, девичник, мальчишник или другое мероприятие, на котором соберёте большую компанию? Давай к нам!" TextWrapping="Wrap"  Grid.Row="2"  />
+            <TextBlock Text="Цена в час: 350р" Grid.Row="4" FontSize="28" Margin="5"/>
+        </Grid>
+    </Grid>
+</Page>

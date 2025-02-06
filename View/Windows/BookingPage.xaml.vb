@@ -1,0 +1,3 @@
+﻿Class BookingPage
+
+End Class

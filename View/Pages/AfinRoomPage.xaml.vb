@@ -1,0 +1,3 @@
+﻿Class BohemianRoomPage
+
+End Class
